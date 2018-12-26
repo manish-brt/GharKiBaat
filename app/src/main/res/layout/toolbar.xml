@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="@android:color/white"
+    android:minHeight="?android:attr/actionBarSize"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:elevation="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal">
+
+        <LinearLayout
+            android:id="@+id/navigation_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp">
+
+            <ImageView
+                android:id="@+id/toolbar_left_layer"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/ic_navigation"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:text="Home"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="48dp"/>
+
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "177426589268",
+    "firebase_url": "https://gharkibaat-ea080.firebaseio.com",
+    "project_id": "gharkibaat-ea080",
+    "storage_bucket": "gharkibaat-ea080.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177426589268:android:b057a03d7b8c5bfd",
+        "android_client_info": {
+          "package_name": "com.manish.gharkibaat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177426589268-am2thfcnt7vf3olslpg1dq2tr8k8gko6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manish.gharkibaat",
+            "certificate_hash": "4e31330f6ee17da7158008e2f60ed0846870820c"
+          }
+        },
+        {
+          "client_id": "177426589268-1jqamkate46oaipjvg49hgpfqlamnujq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-35D7ujEvNAEm0GwI5M5X3OTOV7Rd6ns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177426589268-1jqamkate46oaipjvg49hgpfqlamnujq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
